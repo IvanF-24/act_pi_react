@@ -47,7 +47,7 @@ Descripción del proyecto y su propósito.
 ## Contacto
 ### Información del Grupo
 - **Institución**: SENA
-- **Programa**: [Nombre del programa]
-- **Ficha**: [Número de ficha]
-- **Instructor**: [Nombre del instructor]
-- **Período**: [Año - Trimestre]
+- **Programa**: [ADSO]
+- **Ficha**: [3144585]
+- **Instructor**: [Jhon Fredy Valencia]
+- **Período**: [2025 - 3er trimestre]
