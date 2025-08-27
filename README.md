@@ -1,7 +1,13 @@
 # Nombre del Proyecto
 
 ## Descripción
-Descripción del proyecto y su propósito.
+Este proyecto es una aplicación web desarrollada con Next.js, Tailwind CSS y TypeScript que permite calcular el Índice de Masa Corporal (IMC) de una persona de manera sencilla y rápida.
+
+El usuario ingresa su peso (kg) y altura (cm) en un formulario, y la aplicación devuelve el valor de su IMC junto con una categoría de estado de salud: Bajo peso, Peso normal, Sobrepeso u Obesidad.
+
+Gracias a la integración de Tailwind CSS, la interfaz es responsiva, moderna y minimalista, mientras que TypeScript asegura un desarrollo más seguro mediante tipado estático y control de errores en tiempo de compilación.
+
+El proyecto se estructura en componentes reutilizables, lo que facilita su mantenimiento y escalabilidad. Además, puede servir como base para proyectos más avanzados, como historiales de IMC, autenticación de usuarios o integración con APIs de salud.
 
 ## Características
 - Lista de funcionalidades principales
