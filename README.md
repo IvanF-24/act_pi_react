@@ -1,5 +1,5 @@
 # Nombre del Proyecto
-
+Calculadora IMC
 ## Descripción
 Este proyecto es una aplicación web desarrollada con Next.js, Tailwind CSS y TypeScript que permite calcular el Índice de Masa Corporal (IMC) de una persona de manera sencilla y rápida.
 
