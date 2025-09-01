@@ -22,8 +22,8 @@ El proyecto se estructura en componentes reutilizables, lo que facilita su mante
   - [Llenar la info propia de cada integrante incluyendo el lider]
   - [Definir nuestro proyecto y hacer los respectivos cambios aca en README]
 - **Avances**:
-  - ✅ [Tarea completada 1] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
-  - ✅ [Tarea completada 2] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
+  - ✅ [Tarea completada 1] - Responsable: [Samuel Moreno Carmona] - Commit: [Definicion de objetivos en readme]
+  - ✅ [Tarea completada 2] - Responsable: [Samuel Moreno Carmona] - Commit: [Llenar la informacion propia de cada estudiante]
 - **En progreso**:
   - 🔄 [Tarea en progreso] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
 - **Pendiente**:
@@ -32,13 +32,14 @@ El proyecto se estructura en componentes reutilizables, lo que facilita su mante
   - [Descripción de problemas, soluciones o decisiones tomadas]
 
 ### Clase 2
-- **Fecha**: [DD/MM/YYYY]
+- **Fecha**: [27/08/2025]
 - **Objetivos**:
   - [Objetivo 1]
   - [Objetivo 2]
 - **Avances**:
-  - ✅ [Tarea completada 1] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
-  - ✅ [Tarea completada 2] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
+  - ✅ [Tarea completada 1] - Responsable: [Kerry Herrera] - Commit: [Hash o descripción del commit]
+  - ✅ [Tarea completada 2] - Responsable: [Ivan Florez] - Commit: [Hash o descripción del commit]
+  - ✅ [Tarea completada 2] - Responsable: [Samuel Moreno] - Commit: [Hash o descripción del commit]
 - **En progreso**:
   - 🔄 [Tarea en progreso] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
 - **Pendiente**:
@@ -46,9 +47,21 @@ El proyecto se estructura en componentes reutilizables, lo que facilita su mante
 - **Notas**:
   - [Descripción de problemas, soluciones o decisiones tomadas]
 
-### Clase [N]
-- **Fecha**: [DD/MM/YYYY]
-- [Repetir estructura anterior]
+### Clase 3
+- **Fecha**: [1/09/2025]
+- - **Objetivos**:
+  - [Objetivo 1: Una estructura principal para nuestra pagina sobre IMC(Indice de Masa Corporal)]
+  - [Objetivo 2: NUestro prototipo de caculadora deberia arrojar un resultado adecuado a lo que se le solicite]
+- **Avances**:
+  - ✅ [Tarea completada 1] - Responsable: [Kerry Herrera] - Commit: [Hash o descripción del commit]
+  - ✅ [Tarea completada 2] - Responsable: [Ivan Florez] - Commit: [Hash o descripción del commit]
+  - ✅ [Tarea completada 2] - Responsable: [Samuel Moreno] - Commit: [Hash o descripción del commit]
+- **En progreso**:
+  - 🔄 [Tarea en progreso] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
+- **Pendiente**:
+  - ⏳ [Tarea pendiente] - Responsable: [Nombre]
+- **Notas**:
+  - [Tomamos el proyecto y lo moldeamos a nuestra manera con el equipo de trabajo dando soluciones a los objetivos del dia]
 
 ## Contacto
 ### Información del Grupo
