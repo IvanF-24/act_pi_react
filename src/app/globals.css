@@ -8,8 +8,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background: linear-gradient(to bottom right, #bfdbfe, #dbeafe, #93c5fd);
+  justify-content: flex-start;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #bfdbfe, #dbeafe, #93c5fd); /* mismo que la calculadora */
+  font-family: Arial, sans-serif;
 }
 
 .welcome {
@@ -18,39 +20,117 @@
 }
 
 .title {
-  font-size: 3rem; /* equivalente a text-5xl */
-  font-weight: 800; /* extrabold */
-  color: #1e40af; /* azul oscuro */
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1e40af;
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.2); /* drop-shadow-lg */
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
 .description {
-  font-size: 1.25rem; /* text-xl */
-  color: #374151; /* gris */
+  font-size: 1.25rem;
+  color: #374151;
   max-width: 40rem;
   margin: 0 auto 0.5rem auto;
 }
 
-.cta-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+/* Secciones estilo caja blanca */
+.section {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1.5rem 2rem;
+  margin: 1.5rem auto;
+  max-width: 42rem;
+  text-align: left;
 }
 
-.cta {
+.section.secondary {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+}
+
+/* Títulos dentro de secciones */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 1rem;
+}
+
+/* Lista */
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+/* Botón igual que calculadora */
+.button {
   display: inline-block;
-  background-color: #dbeafe; /* azul claro */
-  color: #1d4ed8; /* azul medio */
-  padding: 0.5rem 1rem;
-  border-radius: 9999px; /* rounded-full */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  font-weight: 500;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #2563eb, #06b6d4);
+  color: white;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  transition: opacity 0.3s ease;
+}
+
+.button:hover {
+  opacity: 0.9;
 }
 
 .footer {
   margin-top: 2.5rem;
-  color: #6b7280; /* gris */
-  font-size: 0.875rem; /* text-sm */
+  color: #6b7280;
+  font-size: 0.875rem;
   text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: #1e3a8a; /* azul oscuro */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #e0f2fe; /* azul claro */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #38bdf8; /* cyan */
 }
