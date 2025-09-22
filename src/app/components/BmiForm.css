@@ -1,0 +1,69 @@
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid #bfdbfe; /* azul claro */
+  border-radius: 1.5rem; /* rounded-3xl */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  max-width: 32rem;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.form-title {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1d4ed8; /* azul */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input {
+  border: 2px solid #93c5fd; /* azul medio */
+  padding: 0.75rem;
+  border-radius: 0.75rem; /* rounded-xl */
+  font-size: 1.125rem; /* text-lg */
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus {
+  border-color: #3b82f6; /* azul fuerte */
+}
+
+.button {
+  background: linear-gradient(to right, #3b82f6, #22d3ee);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #2563eb, #06b6d4);
+}
+
+.result {
+  margin-top: 2rem;
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 500;
+  text-align: center;
+  color: #1e40af; /* azul oscuro */
+  background-color: #dbeafe;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
