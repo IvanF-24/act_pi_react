@@ -15,6 +15,9 @@ export default function Navbar() {
           <li>
             <Link href="/ejercicios">Ejercicios</Link>
           </li>
+          <li>
+            <Link href="/alimentacion">Alimentación</Link>
+          </li>
         </ul>
       </div>
     </nav>

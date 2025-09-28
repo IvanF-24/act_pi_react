@@ -134,3 +134,33 @@
 .nav-links a:hover {
   color: #38bdf8; /* cyan */
 }
+
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 1.5rem auto;
+  max-width: 700px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
